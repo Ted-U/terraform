@@ -31,7 +31,7 @@ variable "vpc_cidr_block" {
 variable "sg_name" {
   description = "Name of the security group"
   type        = string
-  default     = "example-sg"
+  default     = "terraform-sg"
 }
 
 variable "sg_description" {

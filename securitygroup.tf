@@ -1,4 +1,4 @@
-resource "aws_security_group" "example" {
+resource "aws_security_group" "terraform_security_group" {
   name        = var.sg_name
   description = var.sg_description
   vpc_id      = var.vpc_id
